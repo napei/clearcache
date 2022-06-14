@@ -10,3 +10,7 @@ Small utility to clean the following FiveM cache folders (Windows):
 
 1. Download the `.exe` file from the [Release Page](https://github.com/napei/clearcache/releases/latest)
 2. Run it and follow the prompt
+
+## Contributing
+
+PRs welcome, issues generally appreciated first for discussion.
