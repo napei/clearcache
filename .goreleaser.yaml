@@ -13,6 +13,8 @@ builds:
       # - darwin
     goarch:
       - amd64
+archives:
+  - format: binary
 checksum:
   name_template: "checksums.txt"
 snapshot:
