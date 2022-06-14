@@ -1,15 +1,8 @@
-name: goreleaser
-
 on:
   push:
     # run only against tags
     tags:
       - "*"
-
-permissions:
-  contents: write
-  # packages: write
-  # issues: write
 
 jobs:
   goreleaser:
@@ -33,5 +26,7 @@ jobs:
           distribution: goreleaser
           version: latest
           args: release --rm-dist
+          goos: windows
+          goarch: amd64
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
